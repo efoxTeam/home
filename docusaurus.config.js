@@ -5,13 +5,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'EMP',
   tagline: '这是一个面向未来的，基于Webpack5 Module Federation搭建的微前端解决方案。',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+  url: 'https://efoxteam.github.io',
+  baseUrl: '/home/',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'EMP', // Usually your repo name.
+  organizationName: 'efoxTeam', // Usually your GitHub org/user name.
+  projectName: 'home', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'EMP',
@@ -28,7 +28,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'tutorial-basics/create-a-page',
+          docId: 'guide/README',
           position: 'right',
           label: 'Plugins',
         },

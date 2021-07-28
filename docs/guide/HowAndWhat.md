@@ -1,7 +1,7 @@
 # How to use & What we do
 
 ## 微前端包 or cli
-> emp-cli 详细文档 [点击](./README.md)
+> emp-cli 详细文档 [点击](./README.mdx)
 + `@efox/emp-cli` 构建项目、调试项目、生成项目脚手架、支持远程下载 d.ts `完成` 
 + `@efox/emp-tsconfig` 默认ts配置
 + `@efox/eslint-config-react-prittier-ts` 统一eslint 配置 `完成`
@@ -21,7 +21,7 @@
   + html 加入 process 变量 适配 部署环境 `完成` 
   + 把 public 收到 emp-cli `完成` 
   + html 支持自动引入到项目 `完成`
-  + 增加 webpack-bundle-analyzer `emp build --analyze` 分析功能 `完成` [点击查看](./README.md) 
+  + 增加 webpack-bundle-analyzer `emp build --analyze` 分析功能 `完成` [点击查看](./README.mdx) 
   + 解决体积过大问题 `完成` 
   + 解决webpack 文件缓存重写问题 `TODO` 
   + [*]支持热更新 `完成` [问题处理](https://github.com/pmmmwh/react-refresh-webpack-plugin/issues)   
