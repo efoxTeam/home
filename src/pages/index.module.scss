@@ -1,0 +1,50 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.logo_box{
+  width: 200px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    margin-left: 30px;
+
+    :first-child {
+      margin-left: 0;
+    }
+  }
+
+  :global {
+    .button {
+      background-color: #52c3d0;
+      color: #fff;
+      border: none;
+      transition: box-shadow .3s cubic-bezier(.215, .61, .355, 1), transform .3s cubic-bezier(.215, .61, .355, 1), color .3s cubic-bezier(.215, .61, .355, 1), border .3s cubic-bezier(.215, .61, .355, 1), background .3s cubic-bezier(.215, .61, .355, 1);
+
+      &:hover{
+        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgb(16 45 164 / 55%);
+      }
+    }
+  }
+}
