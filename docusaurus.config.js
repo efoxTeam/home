@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'EMP',
   tagline: '这是一个面向未来的，基于Webpack5 Module Federation搭建的微前端解决方案。',
-  url: 'https://efoxteam.github.io',
+  url: 'https://efoxTeam.github.io',
   baseUrl: '/home/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
