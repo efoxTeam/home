@@ -60,3 +60,11 @@ html[data-theme='dark']{
 .doc-page{
   --ifm-link-color:rgb(82, 195, 208);
 }
+
+
+html[data-theme='light']{.pagination-nav__link:hover {
+  border-color: var(--ifm-link-color);
+  text-decoration: none;
+  color: var(--ifm-link-color);
+}
+}

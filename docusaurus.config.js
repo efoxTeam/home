@@ -26,12 +26,12 @@ module.exports = {
           position: 'right',
           label: 'Guide',
         },
-        {
-          type: 'doc',
-          docId: 'guide/README',
-          position: 'right',
-          label: 'Plugins',
-        },
+        // {
+        //   type: 'doc',
+        //   docId: 'guide/README',
+        //   position: 'right',
+        //   label: 'Plugins',
+        // },
         {
           href: 'https://github.com/efoxTeam/emp',
           label: 'GitHub',
