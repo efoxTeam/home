@@ -14,7 +14,6 @@ module.exports = {
   projectName: 'home', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'EMP',
       logo: {
         alt: 'EMP',
         src: 'img/logo.png',
